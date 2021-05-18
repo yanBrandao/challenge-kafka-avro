@@ -1,0 +1,33 @@
+{
+  "namespace": "br.com.tapajos.avro",
+  "type": "record",
+  "name": "RequestPayment",
+  "fields": [
+    {
+      "name": "message",
+      "type": "string",
+      "avro.java.string": "String"
+    },
+    {
+      "name": "amount",
+      "type": "double"
+    },
+    {
+        "name": "from_account",
+        "type": {
+          "type": "record",
+          "name": "Account",
+          "fields": [
+            { "name": "bank", "type": "string" },
+            { "name": "number", "type": "string" },
+            { "name": "digit", "type": "string" },
+            { "name": "branch", "type": "string" }
+          ]
+        }
+    },
+    {
+      "name": "to_account",
+      "type": "br.com.tapajos.avro.Account"
+    }
+  ]
+}
