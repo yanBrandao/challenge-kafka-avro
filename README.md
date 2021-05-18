@@ -1,5 +1,5 @@
 ![img.png](assets/icon_kafka_avro.png)
-# challenge-kafka-avro
+# challenge-kafka-avro ⚔️
 
 This challenge is to practice one of the most commons' data type when the subject is Apache Kafka.
 
@@ -8,25 +8,25 @@ This challenge is to practice one of the most commons' data type when the subjec
 > Avro helps define a binary format for your data, as well as map it to the programming language of your choice.
 > Source: [Why Avro for Kafka Data?](https://www.confluent.io/blog/avro-kafka-data/?utm_medium=sem&utm_source=google&utm_campaign=ch.sem_br.nonbrand_tp.prs_tgt.kafka_mt.xct_rgn.latam_lng.eng_dv.all&utm_term=kafka%20avro&creative=&device=c&placement=&gclid=CjwKCAjwqIiFBhAHEiwANg9szjDgpBm2Qbc1mAbMm1Gkfd_iXTUe4gGOl84triPCJJTAqXZwS4vYTRoCoaoQAvD_BwE)
 
-## Requirements
+## Requirements ⚓
 
  - Docker
  - Java 11
  - Some IDE from your choice (Example made in IntelliJ)
 
-## Architect Solution
+## Architect Solution 🏗️
 
 ![kafka_avro](assets/kafka_avro.png)
 
-## Objective
+## Objective 🎯
 
 Create a producer and consumer in a Spring Boot application using Kafka AVRO has data type to receive and send _Events_.
 
-## Context
+## Context 🌎
 
 Consider that your application need to process a thousand request per seconds, so is necessary to make this process asynchronous, in this case your solution architect suggest you to make an application to process those messages through two brokers, one to receive command witch will make payments requests and other to response the event that will make the payment process as well and generate a tracking ID at end.
 
-## Help Commands
+## Help Commands 🆘
 
 ### Maven Commands
 
@@ -60,7 +60,7 @@ kafka-avro-console-consumer --bootstrap-server broker:19092 --from-beginning --t
 ```
 
 
-## Contact
+## Contact 🤸
 
 Author: Yan Tapajós
 
