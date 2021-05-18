@@ -63,6 +63,7 @@ kafka-avro-console-consumer --bootstrap-server broker:19092 --from-beginning --t
 ## Contact
 
 Author: Yan Tapajós
+
 E-mail: ybrandao.d@gmail.com
 
 _"Is just me, or AVRO icon remembers Aerosmith logo?"_
