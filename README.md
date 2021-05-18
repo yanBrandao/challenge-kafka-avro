@@ -58,3 +58,13 @@ After your solution, you will publish your event response in topic **payments-ev
 ```shell
 kafka-avro-console-consumer --bootstrap-server broker:19092 --from-beginning --topic payments-event-response-cashout --property schema.registry.url=http://localhost:8081
 ```
+
+
+## Contact
+
+Author: Yan Tapajós
+E-mail: ybrandao.d@gmail.com
+
+_"Is just me, or AVRO icon remembers Aerosmith logo?"_
+
+<img src="https://en.concerts-metal.com/images/flyers/000/1380223466.webp" alt="drawing" width="200"/>
